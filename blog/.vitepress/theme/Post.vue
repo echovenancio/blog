@@ -6,6 +6,8 @@ const { site, frontmatter, page } = useData()
 </script>
 
 <template>
-  <h1>Alguma coisa blog post</h1>
-  <Content />
+    <article>
+        <h1>Alguma coisa blog post</h1>
+        <Content />
+    </article> 
 </template>
