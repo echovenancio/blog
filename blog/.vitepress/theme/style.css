@@ -17,21 +17,38 @@ html {
 .sep-warn {
     color: black;
     width: 100%;
-    height: 4rem;
-    background-color: yellow;
+    height: 5vh;
+    background-color: #FFDD00;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding: 1rem 2rem;
+    padding: 3rem 2rem;
     text-transform: uppercase;
-    border: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.sep-warn > p {
+    font-size: 2rem;
+}
+
+.sep-warn > svg {
+    height: 3rem;
+}
+
+hr {
+    height: 0;
+    border: 1px dashed black;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0;
 }
 
 li {
-    display: block;
     list-style-position: inside;
-    list-style-type: square;
+    list-style-type: "- ";
     color: light-dark(var(--light-foreground), var(--dark-foreground));
     text-decoration: none;
 }
@@ -40,6 +57,11 @@ li {
     width: 100%;
     max-width: 648px;
     margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.secondary {
+    color: #000000AA;
 }
 
 a {

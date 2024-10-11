@@ -7,7 +7,6 @@ const { site, frontmatter, page } = useData()
 
 <template>
     <article>
-        <h1>Alguma coisa blog post</h1>
         <Content />
     </article> 
 </template>

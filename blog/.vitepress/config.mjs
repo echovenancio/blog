@@ -4,5 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: "/blog/",
   title: "echovenancio",
-  description: "Blog pessoal"
+  description: "Blog pessoal",
+  markdown: {
+        theme: { light: 'github-light', dark: 'github-dark'}
+  }
 })
