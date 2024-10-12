@@ -3,7 +3,7 @@ import { useData } from 'vitepress'
 import Home from './Home.vue'
 import Post from './Post.vue'
 // https://vitepress.dev/reference/runtime-api#usedata
-const { site, frontmatter, page } = useData()
+const { site, frontmatter, page, theme } = useData()
 </script>
 
 <template>
@@ -15,4 +15,8 @@ const { site, frontmatter, page } = useData()
     <Home v-if="frontmatter.layout === 'home'"/>
     <Post v-else-if="frontmatter.layout === 'post'" />
     </main>
+    <footer class="container">
+        <p>{{ theme.footer.message }}</p>
+        <p>{{ theme.footer.copyright }}</p>
+    </footer>
 </template>

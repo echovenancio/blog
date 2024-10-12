@@ -5,7 +5,17 @@ export default defineConfig({
   base: "/blog/",
   title: "echovenancio",
   description: "Blog pessoal",
+  themeConfig: {
+        footer: {
+        },
+        lastUpdatedText: 'Ultima vez editado'
+    },
   markdown: {
-        theme: { light: 'github-light', dark: 'github-dark'}
-  }
+        theme: 'vitesse-light',
+        config: (md) => {
+        }
+  },
+  lastUpdated: true,
+  lang: 'pt-BR',
+  appearance: true,
 })

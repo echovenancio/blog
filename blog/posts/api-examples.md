@@ -1,5 +1,6 @@
 ---
 layout: post
+markdownStyles: false
 ---
 
 # Runtime API Examples
@@ -15,6 +16,7 @@ int main(void) {
     return EXIT_SUCCESS;
 }
 ```
+
 ## More
 
 Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).

@@ -17,23 +17,23 @@ html {
 .sep-warn {
     color: black;
     width: 100%;
-    height: 5vh;
+    height: 4rem;
     background-color: #FFDD00;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding: 3rem 2rem;
+    padding: 3rem 1rem;
     text-transform: uppercase;
     border-bottom: 2px solid black;
 }
 
 .sep-warn > p {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .sep-warn > svg {
-    height: 3rem;
+    height: 2rem;
 }
 
 hr {
@@ -46,9 +46,16 @@ ul, ol {
     margin: 0;
 }
 
-li {
+ul > li {
     list-style-position: inside;
     list-style-type: "- ";
+    color: light-dark(var(--light-foreground), var(--dark-foreground));
+    text-decoration: none;
+}
+
+ol > li {
+    list-style-position: inside;
+    list-style-type: decimal;
     color: light-dark(var(--light-foreground), var(--dark-foreground));
     text-decoration: none;
 }
@@ -73,6 +80,7 @@ button {
     padding: 0.5rem 0.8rem;
     border: 2px solid black;
     border-radius: 0;
+    background-color: light-dark(var(--light0background), var(--dark-background));
 }
 
 button:hover {
@@ -85,6 +93,12 @@ article {
     gap: 1rem;
 }
 
+article > div > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 blockquote {
     padding: 1rem 2rem;
     text-style: italic;
@@ -92,6 +106,10 @@ blockquote {
 
 figure {
     text-align: center;
+}
+
+.copy, .lang {
+    display: none;
 }
 
 @media only screen and (min-width: 960px) {
