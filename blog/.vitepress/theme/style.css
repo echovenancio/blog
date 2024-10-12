@@ -5,8 +5,12 @@
     --dark-blackground: black;
     --warn-background: #FFDD00;
     --warn-foreground: black;
-    --danger-background: #F72525;
+    --danger-background: #E03232;
     --danger-foreground: white;
+    --info-background: #D5E5E5;
+    --info-foreground: black;
+    --tip-background: #BBF95D;
+    --tip-foreground: black;
 }
 
 * {
@@ -46,11 +50,13 @@ h1, h2, h3 {
 }
 
 .info {
-
+    color: var(--info-foreground);
+    background-color: var(--info-background);
 }
 
 .tip {
-
+    color: var(--tip-foreground);
+    background-color: var(--tip-background);
 }
 
 .warning {
