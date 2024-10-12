@@ -188,6 +188,21 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+th, td {
+    padding: 0.5rem 0.8rem;
+    text-align: left !important;
+    border: 2px solid black;
+}
+
 @media only screen and (min-width: 960px) {
     .container {
         max-width: 728px;
