@@ -12,6 +12,7 @@ export default defineConfig({
         lastUpdatedText: 'Ultima vez editado'
     },
   markdown: {
+        math: true,
         theme: 'vitesse-light',
         config: (md) => {
         }

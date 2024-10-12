@@ -13,7 +13,9 @@ The main `useData()` API can be used to access site, theme, and page data for th
 #include <stdlib.h>
 
 int main(void) {
-    return EXIT_SUCCESS;
+    int a = *null // [!code warning]
+    i = dasd // [!code error]
+    return EXIT_SUCCESS; // [!code focus]
 }
 ```
 
@@ -37,3 +39,16 @@ Check out the documentation for the [full list of runtime APIs](https://vitepres
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      |   centered    |   $12 |
 | zebra stripes |   are neat    |    $1 |
+
+### Math
+
+When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+
+**Maxwell's equations:**
+
+| equation                                                                                                                                                                  | description                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| $\nabla \cdot \vec{\mathbf{B}}  = 0$                                                                                                                                      | divergence of $\vec{\mathbf{B}}$ is zero                                               |
+| $\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t}  = \vec{\mathbf{0}}$                                                          | curl of $\vec{\mathbf{E}}$ is proportional to the rate of change of $\vec{\mathbf{B}}$ |
+| $\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} = \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} = 4 \pi \rho$ | _wha?_                                                                                 |

@@ -4,13 +4,16 @@
     --dark-foreground: white;
     --dark-blackground: black;
     --warn-background: #FFDD00;
+    --warn-code-background: #FFEB92;
     --warn-foreground: black;
     --danger-background: #E03232;
     --danger-foreground: white;
+    --error-background: #FFBDBD;
     --info-background: #D5E5E5;
     --info-foreground: black;
     --tip-background: #BBF95D;
     --tip-foreground: black;
+    --has-focus-background: #EEEEEE;
 }
 
 * {
@@ -67,7 +70,10 @@ h1, h2, h3 {
 .danger {
     color: var(--danger-foreground);
     background-color: var(--danger-background);
+}
 
+.error {
+    background-color: var(--error-background);
 }
 
 .details {
@@ -160,7 +166,7 @@ figure {
     display: none;
 }
 
-svg, img {
+svg, img, video {
     max-width: 100%;
     object-fit: contain;
     object-position: center;
@@ -201,6 +207,39 @@ th, td {
     padding: 0.5rem 0.8rem;
     text-align: left !important;
     border: 2px solid black;
+}
+
+.table-of-contents::before {
+    content: 'TABELA DE CONTEUDO';
+}
+
+.table-of-contents ul {
+}
+
+.table-of-contents:after {
+}
+
+.table-of-contents li {
+    padding: 0 1rem;
+    list-style-type: '* ';
+}
+
+pre.shiki > code {
+    display: block;
+    width: 100%;
+}
+
+pre.shiki > code .line {
+    width: 100%;
+    display: inline-block;
+}
+
+code .warning {
+    background-color: var(--warn-code-background);
+}
+
+.has-focus {
+    background-color: var(--has-focus-background);
 }
 
 @media only screen and (min-width: 960px) {
