@@ -1,6 +1,5 @@
 ---
 layout: post
-markdownStyles: false
 ---
 
 # Runtime API Examples
@@ -27,3 +26,5 @@ Check out the documentation for the [full list of runtime APIs](https://vitepres
 2. AAA
 3. AAA
 4. AAA
+
+![Alt text](/landscape-placeholder-svgrepo-com.svg "Image Title")

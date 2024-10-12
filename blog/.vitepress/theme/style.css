@@ -30,11 +30,16 @@ html {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
 }
 
 .sep-warn > p {
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .sep-warn > svg {
@@ -116,6 +121,12 @@ figure {
 
 .copy, .lang {
     display: none;
+}
+
+svg, img {
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
 }
 
 @media only screen and (min-width: 960px) {
