@@ -8,6 +8,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 html {
@@ -28,8 +29,12 @@ html {
     border-bottom: 2px solid black;
 }
 
-.sep-warn > p {
+h1 {
     font-size: 1.5rem;
+}
+
+.sep-warn > p {
+    font-size: 1.2rem;
 }
 
 .sep-warn > svg {
@@ -91,6 +96,7 @@ article {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    padding: 0 1rem;
 }
 
 article > div > div {
