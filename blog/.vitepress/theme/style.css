@@ -3,6 +3,10 @@
     --light-background: white;
     --dark-foreground: white;
     --dark-blackground: black;
+    --warn-background: #FFDD00;
+    --warn-foreground: black;
+    --danger-background: #F72525;
+    --danger-foreground: white;
 }
 
 * {
@@ -19,7 +23,7 @@ html {
     color: black;
     width: 100%;
     height: 4rem;
-    background-color: #FFDD00;
+    background-color: var(--warn-background);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +39,33 @@ h1 {
 
 h1, h2, h3 {
     text-transform: uppercase;
+}
+
+.custom-block {
+    padding: 1rem;
+}
+
+.info {
+
+}
+
+.tip {
+
+}
+
+.warning {
+    color: var(--warn-foreground);
+    background-color: var(--warn-background);
+}
+
+.danger {
+    color: var(--danger-foreground);
+    background-color: var(--danger-background);
+
+}
+
+.details {
+    border: 2px solid black;
 }
 
 .sep-warn > p {
