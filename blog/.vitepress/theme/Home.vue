@@ -14,6 +14,5 @@ const { site, frontmatter, page } = useData()
   <hr>
   <h3>POSTS</h3>
   <Content />
-  <p class="secondary">*Esse site é propositalmente simples por questões de disponibilidade e acessibilidade.</p>
   </article>
 </template>

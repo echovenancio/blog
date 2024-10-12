@@ -129,6 +129,28 @@ svg, img {
     object-position: center;
 }
 
+footer {
+    align-content: end;
+}
+
+footer > div {
+    padding: 0 1rem;
+}
+
+body {
+    height: 100vh;
+}
+
+#app {
+    height: 80%;
+}
+
+.grid {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 @media only screen and (min-width: 960px) {
     .container {
         max-width: 728px;
