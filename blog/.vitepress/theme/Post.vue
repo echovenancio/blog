@@ -7,6 +7,8 @@ const { site, frontmatter, page } = useData()
 
 <template>
     <article>
+        <span><- <a href="/blog/">Voltar para pagina principal.</a></span>
+        <hr>
         <Content />
     </article> 
 </template>
