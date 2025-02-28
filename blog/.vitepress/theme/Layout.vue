@@ -2,7 +2,6 @@
 import { useData } from 'vitepress'
 import Home from './Home.vue'
 import Post from './Post.vue'
-// https://vitepress.dev/reference/runtime-api#usedata
 const { site, frontmatter, page, theme } = useData()
 </script>
 

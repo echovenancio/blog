@@ -1,8 +1,8 @@
 :root {
-    --light-foreground: black; 
+    --light-foreground: black;
     --light-background: white;
     --dark-foreground: white;
-    --dark-blackground: black;
+    --dark-background: black;
     --warn-background: #FFDD00;
     --warn-code-background: #FFEB92;
     --warn-foreground: black;
@@ -24,6 +24,10 @@
 
 html {
     font-family: monospace;
+}
+
+body {
+    background-color: light-dark(var(--light-background), var(--dark-background));
 }
 
 .sep-warn {
