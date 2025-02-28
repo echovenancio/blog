@@ -2,7 +2,7 @@
 layout: post
 ---
 
-# Board Interativo em JS 
+# Quadro colaborativo em JS 
 
 Nessa série de posts estarei mostrando como criar uma simples ferramenta de whiteboard interativo em JS
 utilizando WebSockets e um backend em go.
