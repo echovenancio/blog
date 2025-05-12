@@ -4,6 +4,10 @@ layout: post
 
 # Quadro colaborativo em JS 
 
+::: info
+Você pode encontrar o código completo do projeto no repositório [aqui](https://github.com/echovenancio/colabBoard).
+:::
+
 Nessa série de posts estarei mostrando como criar uma simples ferramenta de whiteboard interativo em JS
 utilizando WebSockets e um backend em go.
 

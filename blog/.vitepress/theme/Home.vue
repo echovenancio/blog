@@ -9,7 +9,7 @@ const { site, frontmatter, page } = useData()
   <article>
   <hgroup>
     <h1>ECHOVENANCIO</h1>
-    <p>Programação e afins.</p>
+    <p>Programação e Ciência da computação.</p>
   </hgroup>
   <hr>
   <h3>POSTS</h3>

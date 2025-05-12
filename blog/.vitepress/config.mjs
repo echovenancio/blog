@@ -6,9 +6,6 @@ export default defineConfig({
   title: "echovenancio",
   description: "Blog pessoal",
   themeConfig: {
-        footer: {
-            message: "*Esse site é propositalmente simples por questões de disponibilidade e acessibilidade.",
-        },
         lastUpdatedText: 'Ultima vez editado'
     },
   markdown: {

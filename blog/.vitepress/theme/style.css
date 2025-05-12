@@ -231,6 +231,7 @@ th, td {
 pre.shiki > code {
     display: block;
     width: 100%;
+
 }
 
 pre.shiki > code .line {
@@ -242,12 +243,40 @@ code .warning {
     background-color: var(--warn-code-background);
 }
 
+pre {
+    overflow-x: auto;
+}
+
 .has-focus {
     background-color: var(--has-focus-background);
 }
 
-@media only screen and (min-width: 960px) {
-    .container {
-        max-width: 728px;
-    } 
+@media (min-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
+@media (min-width: 480px) {
+  .container {
+    max-width: 440px;
+  }
+}
+
+@media (min-width: 520px) {
+  .container {
+    max-width: 520px;
+  }
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 680px;
+  }
 }

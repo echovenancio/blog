@@ -13,8 +13,6 @@ const { site, frontmatter, page, theme } = useData()
     </main>
     <footer class="container secondary">
         <div>
-            <p>{{ theme.footer.message }}</p>
-            <p>{{ theme.footer.copyright }}</p>
         </div>
     </footer>
     </div>
