@@ -15,6 +15,10 @@ export default defineConfig({
         }
   },
   lastUpdated: true,
+  head: [
+    ['link', { rel: 'icon', href: '/blog/favicon.svg' }]
+    // or use .svg/.png as needed
+  ],
   lang: 'pt-BR',
   appearance: true,
 })
