@@ -253,7 +253,13 @@ pre {
 
 @media (min-width: 320px) {
   .container {
-    max-width: 420px;
+    max-width: 305px;
+  }
+}
+
+@media (min-width: 390px) {
+  .container {
+    max-width: 390px;
   }
 }
 
